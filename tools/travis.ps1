@@ -108,7 +108,7 @@ if ($isFullBuild) {
     $pesterParam['ThrowOnFailure'] = $true
 }
 
-Start-PSPester @pesterParam
+#Start-PSPester @pesterParam
 
 if (-not $isPr) {
     # Only build packages for branches, not pull requests
